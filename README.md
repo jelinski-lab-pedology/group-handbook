@@ -1,1 +1,1 @@
-# lab-handbook
+# jelinski-lab-handbook
