@@ -1,0 +1,63 @@
+project:
+  type: book
+  # change output-dir to "docs" to publish to gh pages
+  output-dir: docs
+
+book:
+  title: "Jelinski Group Handbook"
+  author: "N.A. Jelinski, N.B. Pearson, and all other lab members"
+  date: "16-November-2023"
+  cover-image: "group-handbook-badge.png"
+  
+  chapters:
+    - index.qmd
+    - 01-welcome-and-introduction.qmd
+    - part: 02-lab-culture-and-philosophy.qmd
+      chapters: 
+        - 02a-philosophy.qmd
+        - 02b-expectations.qmd # unit of work is proposals and pubs
+        - 02c-code-of-conduct.qmd
+        - 02d-meetings.qmd
+    - part: 03-onboarding.qmd
+      chapters: 
+        - 03a-onboarding-checklist.qmd
+        - 03b-required-trainings.qmd
+        - 03c-transportation-and-parking.qmd
+        - 03d-graduate-students.qmd
+    - part: 04-mentoring.qmd
+      chapters: 
+        - 04a-undergraduate-mentoring.qmd
+        - 04b-graduate-student-mentoring.qmd
+        - 04c-postdoc-mentoring.qmd
+    - part: 05-offboarding.qmd
+      chapters: 
+        - 05a-offboarding-checklist.qmd
+        - 05b-exit-interview.qmd
+        - 05c-work-archive-and-project-documentation.qmd
+    - part: 06-budget-finance-resources.qmd
+      chapters: 
+        - 06a-obtaining-pcard-tcard.qmd
+        - 06b-ordering-amazon-umarket.qmd
+        - 06c-expense-reports-justifications
+    - part: 07-science-resources.qmd
+      chapters: 
+        - 07a-workshop-course-materials.qmd
+        - 07b-lab-organization.qmd
+        - 07c-open-science-workflow.qmd
+#    - summary.qmd
+#    - references.qmd
+#  appendices:
+#    - co-authorship-template.qmd
+#    - data-use-and-sharing.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+

@@ -1,0 +1,9 @@
+# Preface {.unnumbered}
+
+This Quarto book serves as a handbook for group policies, procedures, resources, and training for the Jelinski Lab Group at the University of Minnesota. If you are looking for our lab protocols, please find them in our [Laboratory Protocols](https://jelinski-lab-pedology.github.io/laboratory-protocols) book.
+
+## Key Personnel
+
+-   Nic Jelinski; Lab PI, Primary Editor and Compiler
+-   Nora Pearson; Primary Editor and Compiler
+-   MANY Graduate and Undergraduate Students
